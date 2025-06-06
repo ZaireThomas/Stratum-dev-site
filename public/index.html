@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Stratum Dev Site | Zaire Thomas</title>
+  <link rel="stylesheet" href="css/index.css" />
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      VANTA.NET({
+        el: "#body",
+        mouseControls: false,
+        touchControls: false,
+        gyroControls: false,
+        minHeight: 200.00,
+        minWidth: 200.00,
+        scale: 1.00,
+        scaleMobile: 1.00,
+        color: 0x1f294a,
+        backgroundColor: 0x141420,
+        points: 5.00,
+        maxDistance: 15.00,
+        spacing: 18.00
+      });
+    })
+  </script>
+</head>
+
+<body id="body">
+  <div id="main-container">
+    <nav>
+      <div id="logo">stratum.dev</div>
+      <ul id="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#about">About</a></li>
+      </ul>
+    </nav>
+
+    <hr>
+    <header>
+      <h1> Welcome to My Development Portfolio</h1>
+      <p id="author">by <strong>Zaire Thomas</strong></p>
+      
+      <p id="intro">
+        This site is a place for me to share what I'm building and learning. You'll find personal projects,
+        experiments, and tools I've put together for fun and furthing my education in tech literacy.
+      </p>
+
+      <br>
+      <hr>
+    </header>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <p>A.A.S. in Computer Information Systems from Borough of Manhattan Community College, with years of experience in game development across both indie and professional projects. Personally contributed to ventures generating over $200,000 in revenue. Skilled in Lua, UI/UX design, monetization strategies, and data analysis. Proficient with tools like Excel for data tracking, Trello for team collaboration, and XMind for project planning. Experience includes brand integration work on the Roblox platform with companies such as Little Tikes. 
+      </p>
+      <ul class="skills-list">
+        <li>JavaScript / TypeScript</li>
+        <li>HTML / CSS / SCSS</li>
+        <li>React / Next.js / Vue</li>
+        <li>Node.js / Express</li>
+        <li>MongoDB / PostgreSQL</li>
+        <li>Git / GitHub / Linux CLI</li>
+      </ul>
+    </section>
+
+    <section id="projects" class="projects-section">
+      <h2>My Projects</h2>
+      <div class="projects-grid">
+        <a href="#" class="project-box">
+          <h3>Project One</h3>
+          <p>A cool web app that does something interesting.</p>
+        </a>
+      </div>
+    </section>
+
+    <section id="about" class="about-section">
+      <h2>About Me</h2>
+      <p>
+        I'm a passionate developer who enjoys turning ideas into reality through code. I love working on personal
+        projects that teach me something new — whether it’s experimenting with a new library, building a full-stack
+        application, or just making cool visuals with code.
+      </p>
+      <p>
+        Outside of development, I’m into digital design, music production, and reverse engineering. This site is a
+        living
+        log of the stuff I make and learn along the way.
+      </p>
+    </section>
+  </div>
+</body>
+
+</html>
